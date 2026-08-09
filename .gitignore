@@ -1,0 +1,37 @@
+# Eclipse workspace
+.metadata/
+
+# Personal project notes
+Employee management system workflow.txt
+
+# Java / Maven
+**/target/
+*.class
+
+# Node / React
+**/node_modules/
+**/dist/
+
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Eclipse / STS project files
+**/.classpath
+**/.project
+**/.settings/
+
+# IntelliJ IDEA
+**/.idea/
+*.iml
+
+# VS Code
+**/.vscode/
+
+# Logs
+*.log
+
+# Operating System
+.DS_Store
+Thumbs.db

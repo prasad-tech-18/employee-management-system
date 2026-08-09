@@ -1,0 +1,161 @@
+:root {
+    --india-saffron: #FF9933;
+    --india-green: #138808;
+    --india-blue: #000080;
+    --india-gold: #F4C430;
+    --india-light: #FFFDF8;
+    --india-dark: #17202A;
+}
+
+body {
+    margin: 0;
+    background-color: var(--india-light);
+    color: var(--india-dark);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ================================
+   Global Buttons
+================================ */
+
+.btn-primary {
+    background-color: var(--india-blue);
+    border-color: var(--india-blue);
+}
+
+.btn-primary:hover {
+    background-color: #000066;
+    border-color: #000066;
+}
+
+.btn-success {
+    background-color: var(--india-green);
+    border-color: var(--india-green);
+}
+
+.btn-success:hover {
+    background-color: #0b6f06;
+    border-color: #0b6f06;
+}
+
+.btn-warning {
+    background-color: var(--india-saffron);
+    border-color: var(--india-saffron);
+    color: #ffffff;
+}
+
+.btn-warning:hover {
+    background-color: #e68520;
+    border-color: #e68520;
+    color: #ffffff;
+}
+
+/* ================================
+   Dashboard Cards
+================================ */
+
+.dashboard-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* ================================
+   Section Headers
+================================ */
+
+.section-header {
+    border-left: 5px solid var(--india-saffron);
+    padding-left: 12px;
+}
+
+/* ================================
+   Tables
+================================ */
+
+.table thead {
+    background-color: var(--india-blue);
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #fff3e6;
+}
+
+/* ================================
+   Form Focus
+================================ */
+
+.form-control:focus {
+    border-color: var(--india-saffron);
+    box-shadow: 0 0 0 0.2rem rgba(255, 153, 51, 0.20);
+}
+
+/* ================================
+   Tricolour Accent
+================================ */
+
+.tricolour-border {
+    border-top: 4px solid var(--india-saffron);
+    border-bottom: 4px solid var(--india-green);
+}
+
+/* ================================
+   Links
+================================ */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* ================================
+   EMS Navbar - Indian Theme
+================================ */
+
+.ems-navbar {
+    background-color: var(--india-blue);
+    border-top: 4px solid var(--india-saffron);
+    border-bottom: 4px solid var(--india-green);
+}
+
+.ems-navbar .navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.ems-navbar .nav-link {
+    font-weight: 500;
+    margin-left: 8px;
+    padding: 8px 12px !important;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.ems-navbar .nav-link:hover {
+    background-color: rgba(255, 153, 51, 0.25);
+}
+
+.ems-navbar .nav-link.active {
+    background-color: var(--india-saffron);
+    color: white !important;
+}
+
+.ems-footer {
+    background-color: var(--india-blue);
+    border-top: 4px solid var(--india-saffron);
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
